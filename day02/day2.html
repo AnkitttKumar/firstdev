@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Day 02 </title>
+    <style>
+        marquee {
+            color: darkseagreen;
+            font-size: 35px;
+            font-family: fantasy;
+        }
+
+        img {
+            margin-left: 40%;
+            border: gold;
+            border-width: 15px;
+            border-style: outset;
+            border-radius: 12%;
+            width: 250px;
+            padding: 20px;
+            margin-top: -20%;
+        }
+
+        body {
+            background-image: linear-gradient(gray, orange);
+        }
+
+        .gen {
+            color: red;
+        }
+
+        #pad {
+            width: 30%;
+            background-color: burlywood;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <marquee direction="right">
+        HELLO GOOD MORNING!
+
+
+
+    </marquee>
+    <form action="mailto: jenniferally722@gmail.com" method="POST">
+
+        Name: <br>
+
+        <input type="text" name=Name placeholder="Enter your Name" required>
+        <br>
+        Gender: <br>
+        <input type="radio" name="Gender" value="Male" id="gender-m">
+        <label for="gender-m" class="gen">Male: </label>
+        <input type="radio" name="Gender" value="Female" id="gender-f">
+        <label for="gender-f" class="gen">Female: </label>
+        <br><br>
+        SKILLS:
+        <input type="checkbox" name="Skills" value="HTML" id="skill1">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="Skills" value="Python" id="skill2">
+        <label for="skill2">Python</label>
+        <input type="checkbox" name="Skills" value="C++" id="skill3">
+        <label for="skill3">C++</label>
+        <br><br>
+        <input type="submit" name="Submit" value="submit">
+        <input type="reset" value="Reset">
+    </form>
+    <br>
+    <br>
+    your favorite car:
+    <select name="" id="">
+        <option>lembo</option>
+        <option>Mercedes</option>
+        <option>Audi</option>
+        <option>Ferrari</option>
+        <option selected>Jaguar</option>
+    </select>
+    <br><br>
+    <img src="https://listvale.in/wp-content/uploads/2020/06/hanuman-ji-amazing-photo.jpg">
+    <div id="pad">
+        Jai Bhawani
+    </div>
+</body>
+
+</html>
