@@ -1,0 +1,19 @@
+body{
+    background-color: coral;
+}
+.lorem:hover
+{
+    background-color: burlywood;
+}
+
+
+.lorem > pre
+{
+    cursor: pointer;
+
+}
+.lorem > pre:hover
+{
+    color: black;
+    font-size: larger;
+}
