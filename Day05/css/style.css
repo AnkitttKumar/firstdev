@@ -1,0 +1,29 @@
+#mainheader
+{
+    height: calc(100vh - 54px);
+    background-image: url(https://wallpapers.com/images/high/lightning-thor-hammer-b20mey26kftvmvjs.jpg);
+    background-size: cover;
+    
+}
+.page-section
+{
+    padding: 6rem 0;
+    
+}
+.section-heading
+{
+    font-weight: bold;
+    margin-bottom: 1rem;
+
+}
+
+.section-subheading
+{
+    margin-bottom: 4rem;
+    
+}
+.thor{
+    font-weight: bold;
+    color: black;
+    margin-left: -10%;
+}
